@@ -13,24 +13,24 @@ def plot_lines(x,y,z,k,l):
 
    ax.plot3D(x, y, z, k,label=l)
 
-x = np.linspace(40, 2000, 1000)
-y = np.linspace(-1100, 40, 1000)
+x = np.linspace(40, 5000, 1000)
+y = np.linspace(-2200, 200, 1000)
 
 xx, yy = np.meshgrid(x, y)   
 
 z = (-normal[0] * xx - normal[1] * yy - d) * 1. /normal[2]
 
 #Direction Ratios of line
-l1_dir = np.array([2, -1, -6])
+l1_dir = np.array([1, -1, -6])
 #Coordinates of point through which line passes
 point1 = np.array([3,-4,-5])
 x1 = [];y1 = [];z1 = []
-for i in range(0,1000):
+for i in range(0,3000):
     
     x1 +=[l1_dir[0]*i+point1[0]];y1 +=[l1_dir[1]*i+point1[1]]; z1 +=[l1_dir[2]*i+point1[2]]
 
 ax.plot_wireframe(xx, yy, z, color='green')
 
-plot_lines(x1,y1,z1,'gray','line1')
+plot_lines(x1,y1,z1,'Red','line1')
 plt.show()
 
