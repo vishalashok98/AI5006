@@ -171,41 +171,42 @@ Equation of the plane is
 
 \newline
 Direction ratios of line passing through points \myvec{3\\-4\\-5} and \myvec{2\\-3\\1} is given by [1,-1,-6] 
-\begin{align}
-    
-
-
-Parametric equations of co-ordinates of any point on line passing through \myvec{3\\-4\\-5} and \myvec{2\\-3\\1} are
 \newline
-\end{align}
-\begin{align}
-x=r+3\label{eq:2}
-\end{align}
-\begin{align}
 \newline
-y=-4-r\label{eq:3}
-\end{align}
+Equation of a line passing through the point $\vec{a}$ and having direction ratios $\vec{n}$ is given by:
 \begin{align}
-\newline
-z=-5-6r\label{eq:4}
+ \vec{x} =\vec{a} + \lambda\vec{n}\label{eq:1}
 \end{align}
+where $\lambda$ is some constant.
 
+\begin{align}
+
+Parametric equations of line passing through \myvec{3\\-4\\-5} and \myvec{2\\-3\\1} is
+\newline
+\vec{x} &=\myvec{ 2\\ -3\\ 1} + \lambda\myvec{ 1 \\-1\\-6} \label{eq:1}
+\end{align}
 \section{Solution}
-Since the line intersects plane, by substituting equations 2.0.2,2.0.3 and 2.0.4 in equation 2.0.1 we get
+Since the line intersects plane, by substituting parametric equation of line in equation of plane we get
 \begin{align}
-\newline
-2(r+3)-4-r-5-6r=7
+\myvec{ 2&-3&1}(\vec{a}+\lambda\vec{n})=7    
 \end{align}
-\begin{align}
-\newline
--5r-3=7\label{eq:4}
-\end{align}
-\begin{align}
-\newline
-r=1
-\end{align}
-Substituting the value of r in parametric equations we get point of intersection as [1,-4,-5]
 
+
+
+\newline
+\begin{align}
+\myvec{ 2&-3&1}\vec{a}+\myvec{ 2&-3&1}\lambda\vec{n}=7
+\end{align}
+\newline
+\begin{align}
+\myvec{ 2&-3&1}\myvec{ 2\\ -3\\ 1}+\myvec{ 2&-3&1}\myvec{ 1 \\-1\\-6}\lambda=7
+\end{align}
+\begin{align}
+\newline
+\lambda=
+\end{align}
+Substituting the value of $\lambda$ in parametric equations we get point of intersection as [1,-2,7]
+\newpage
 \section{Plot}
 \begin{figure}[!htbp]
     \centering
