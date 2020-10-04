@@ -158,7 +158,7 @@ https://github.com/vishalashok98/AI5006/tree/master/Assignment1
 
 \section{Problem}
 Find the co ordinates of the point when the line through
-\myvec{3\\-4\\-5} and \myvec{2\\-3\\1} crosses the plane [2  1  1]x=7 and perpendicular to the two lines
+\myvec{3\\-4\\-5} and \myvec{2\\-3\\1} crosses the plane \myvec{ 2&-3&1}$\vec{x}$=7 and perpendicular to the two lines
 
 	
 	
@@ -166,16 +166,16 @@ Find the co ordinates of the point when the line through
 Equation of the plane is 
 \newline
 \begin{align}
-2x+y+z=7\label{eq:1}    
+\myvec{ 2&-3&1}\vec{x}=7\label{eq:1}    
 \end{align}
 
 \newline
 Direction ratios of line passing through points \myvec{3\\-4\\-5} and \myvec{2\\-3\\1} is given by [1,-1,-6] 
 \newline
 \newline
-Equation of a line passing through the point $\vec{a}$ and having direction ratios $\vec{n}$ is given by:
+Equation of a line passing through the point $\vec{a}$ and having direction ratios $\vec{m}$ is given by:
 \begin{align}
- \vec{x} =\vec{a} + \lambda\vec{n}\label{eq:1}
+ \vec{x} =\vec{a} + \lambda\vec{m}\label{eq:1}
 \end{align}
 where $\lambda$ is some constant.
 
@@ -188,22 +188,22 @@ Parametric equations of line passing through \myvec{3\\-4\\-5} and \myvec{2\\-3\
 \section{Solution}
 Since the line intersects plane, by substituting parametric equation of line in equation of plane we get
 \begin{align}
-\myvec{ 2&-3&1}(\vec{a}+\lambda\vec{n})=7    
+\myvec{ 2&1&1}(\vec{a}+\lambda\vec{m})=7    
 \end{align}
 
 
 
 \newline
 \begin{align}
-\myvec{ 2&-3&1}\vec{a}+\myvec{ 2&-3&1}\lambda\vec{n}=7
+\myvec{ 2&1&1}\vec{a}+\myvec{ 2&1&1}\lambda\vec{m}=7
 \end{align}
 \newline
 \begin{align}
-\myvec{ 2&-3&1}\myvec{ 2\\ -3\\ 1}+\myvec{ 2&-3&1}\myvec{ 1 \\-1\\-6}\lambda=7
+\myvec{ 2&1&1}\myvec{ 2\\ -3\\ 1}+\myvec{ 2&1&1}\myvec{ 1 \\-1\\-6}\lambda=7
 \end{align}
 \begin{align}
 \newline
-\lambda=
+\lambda=-1
 \end{align}
 Substituting the value of $\lambda$ in parametric equations we get point of intersection as [1,-2,7]
 \newpage
