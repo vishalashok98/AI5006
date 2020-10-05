@@ -158,7 +158,11 @@ https://github.com/vishalashok98/AI5006/tree/master/Assignment1
 
 \section{Problem}
 Find the co ordinates of the point when the line through
-\myvec{3\\-4\\-5} and \myvec{2\\-3\\1} crosses the plane \myvec{ 2&-3&1}$\vec{x}$=7 and perpendicular to the two lines
+\myvec{3\\-4\\-5} and \myvec{2\\-3\\1} crosses the plane 
+\begin{math}
+\myvec{ 2\\-3\\1}^T\vec{x}=7   
+\end{math}
+and perpendicular to the two lines
 
 	
 	
@@ -166,40 +170,42 @@ Find the co ordinates of the point when the line through
 Equation of the plane is 
 \newline
 \begin{align}
-\myvec{ 2&-3&1}\vec{x}=7\label{eq:1}    
+\myvec{ 2\\-3\\1}^T\vec{x}=7\label{eq:1}    
 \end{align}
 
 \newline
-Direction ratios of line passing through points \myvec{3\\-4\\-5} and \myvec{2\\-3\\1} is given by [1,-1,-6] 
+Direction vector of line passing through points \myvec{3\\-4\\-5} and \myvec{2\\-3\\1} is given by 
+\newline
+$\vec{m}$=\myvec{3\\-4\\-5}-\myvec{2\\-3\\1}=\myvec{1\\-1\\-6} 
 \newline
 \newline
-Equation of a line passing through the point $\vec{a}$ and having direction ratios $\vec{m}$ is given by:
+Equation of a line passing through the point $\vec{a}$ and having direction vector $\vec{m}$ is given by:
 \begin{align}
  \vec{x} =\vec{a} + \lambda\vec{m}\label{eq:1}
 \end{align}
 where $\lambda$ is some constant.
-
-\begin{align}
-
 Parametric equations of line passing through \myvec{3\\-4\\-5} and \myvec{2\\-3\\1} is
 \newline
-\vec{x} &=\myvec{ 2\\ -3\\ 1} + \lambda\myvec{ 1 \\-1\\-6} \label{eq:1}
-\end{align}
+\begin{center}
+
+
+\vec{x} &=\myvec{ 2\\ -3\\ 1} + $\lambda$\myvec{ 1 \\-1\\-6} \label{eq:1}
+\end{center}
 \section{Solution}
 Since the line intersects plane, by substituting parametric equation of line in equation of plane we get
 \begin{align}
-\myvec{ 2&1&1}(\vec{a}+\lambda\vec{m})=7    
+\myvec{ 2\\1\\1}^T(\vec{a}+\lambda\vec{m})=7    
 \end{align}
 
 
 
 \newline
 \begin{align}
-\myvec{ 2&1&1}\vec{a}+\myvec{ 2&1&1}\lambda\vec{m}=7
+\myvec{ 2\\1\\1}^T\vec{a}+\myvec{ 2\\1\\1}^T\lambda\vec{m}=7
 \end{align}
 \newline
 \begin{align}
-\myvec{ 2&1&1}\myvec{ 2\\ -3\\ 1}+\myvec{ 2&1&1}\myvec{ 1 \\-1\\-6}\lambda=7
+\myvec{ 2\\1\\1}^T\myvec{ 2\\ -3\\ 1}+\myvec{ 2\\1\\1}^T\myvec{ 1 \\-1\\-6}\lambda=7
 \end{align}
 \begin{align}
 \newline
