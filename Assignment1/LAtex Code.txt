@@ -170,7 +170,7 @@ and perpendicular to the two lines
 Equation of the plane is 
 \newline
 \begin{align}
-\myvec{ 2\\-3\\1}^T\vec{x}=7\label{eq:1}    
+\myvec{ 2&-3&1}\vec{x}=7\label{eq:1}    
 \end{align}
 
 \newline
@@ -194,24 +194,24 @@ Parametric equations of line passing through \myvec{3\\-4\\-5} and \myvec{2\\-3\
 \section{Solution}
 Since the line intersects plane, by substituting parametric equation of line in equation of plane we get
 \begin{align}
-\myvec{ 2\\1\\1}^T(\vec{a}+\lambda\vec{m})=7    
+\myvec{ 2&1&1}(\vec{a}+\lambda\vec{m})=7    
 \end{align}
 
 
 
 \newline
 \begin{align}
-\myvec{ 2\\1\\1}^T\vec{a}+\myvec{ 2\\1\\1}^T\lambda\vec{m}=7
+\myvec{ 2&1&1}\vec{a}+\myvec{ 2&1&1}\lambda\vec{m}=7
 \end{align}
 \newline
 \begin{align}
-\myvec{ 2\\1\\1}^T\myvec{ 2\\ -3\\ 1}+\myvec{ 2\\1\\1}^T\myvec{ 1 \\-1\\-6}\lambda=7
+\myvec{ 2&1&1}\myvec{ 2\\ -3\\ 1}+\myvec{ 2&1&1}\myvec{ 1 \\-1\\-6}\lambda=7
 \end{align}
 \begin{align}
 \newline
 \lambda=-1
 \end{align}
-Substituting the value of $\lambda$ in parametric equations we get point of intersection as [1,-2,7]
+Substituting the value of $\lambda$ in parametric equations we get point of intersection as \myvec{1\\-2\\7}
 \newpage
 \section{Plot}
 \begin{figure}[!htbp]
