@@ -167,20 +167,6 @@ Using properties of determinants
 
 	
 	
-\section{Explanation}
-By the properties of determinants we know that in any determinant each if element in any row (or column) consists of the sum of two terms, then the determinant can be expressed as sum of two determinants of same order.
-\newline
-\newline
-\begin{align}
-\begin{vmatrix}a1+x1&b1&c1\\a2+x2&b2&c2\\a3+x3&b3&c3\end{vmatrix}=\begin{vmatrix}a1&b1&c1\\a2&b2&c2\\a3&b3&c3\end{vmatrix}+\begin{vmatrix}x1&b1&c1\\x2&b2&c2\\x3&b3&c3\end{vmatrix}    
-\end{align}
-
-\newline
-\newline
-So from this property we can deduce that any elementary row or column operation performed on matrix does not change its determinant value of its determinant.
-
-
-So to reduce the complexity in evaluation of determinants we usually perform row reduction operations , so that at least two rows are contain only zero and one as entries
 
 
 
@@ -196,20 +182,13 @@ Performing transformations
 \begin{align}
 \begin{vmatrix}
 1&x&y\\1&x+y&y\\1&x&x+y
-\end{vmatrix}\xleftrightarrow{R_2=R_2-R_1}\begin{vmatrix}
-1&x&y\\0&y&0\\1&x&x+y
+\end{vmatrix}\xleftrightarrow[R_3=R_3-R_1]{R_2 = R_2 - R_1} xy\begin{vmatrix}
+1&x&y\\0&1&0\\1&x&1
 \end{vmatrix}    
 \end{align}
 
 
-\newline
-\begin{align}
-\begin{vmatrix}
-1&x&y\\0&y&0\\1&x&x+y
-\end{vmatrix}\xleftrightarrow{R_3=R_3-R_1}xy\begin{vmatrix}
-1&x&y\\0&1&0\\0&0&1
-\end{vmatrix}
-\end{align}
+
 \newline
 \newline
 Finding determinant along Row 3
